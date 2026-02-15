@@ -5,8 +5,7 @@ Homebrew cask for installing [McpMux](https://github.com/mcpmux/mcp-mux) — the
 ## Installation
 
 ```bash
-brew tap mcpmux/mcpmux
-brew install --cask mcpmux
+brew install --cask mcpmux/tap/mcpmux
 ```
 
 ## Updating
