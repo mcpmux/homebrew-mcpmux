@@ -1,11 +1,11 @@
 # Homebrew Tap for McpMux
 
-Homebrew cask for installing [McpMux](https://github.com/ion-ash/mcp-mux) — the unified MCP gateway and manager for AI clients.
+Homebrew cask for installing [McpMux](https://github.com/mcpmux/mcp-mux) — the unified MCP gateway and manager for AI clients.
 
 ## Installation
 
 ```bash
-brew tap ion-ash/mcpmux
+brew tap mcpmux/mcpmux
 brew install --cask mcpmux
 ```
 

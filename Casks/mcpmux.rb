@@ -5,8 +5,8 @@ cask "mcpmux" do
   sha256 arm:   "PLACEHOLDER_ARM64",
          intel: "PLACEHOLDER_X64"
 
-  url "https://github.com/ion-ash/mcp-mux/releases/download/v#{version}/McpMux_#{version}_#{arch}.dmg",
-      verified: "github.com/ion-ash/mcp-mux/"
+  url "https://github.com/mcpmux/mcp-mux/releases/download/v#{version}/McpMux_#{version}_#{arch}.dmg",
+      verified: "github.com/mcpmux/mcp-mux/"
 
   name "McpMux"
   desc "Unified MCP gateway and manager for AI clients"
@@ -15,7 +15,7 @@ cask "mcpmux" do
   depends_on macos: ">= :high_sierra"
 
   livecheck do
-    url "https://github.com/ion-ash/mcp-mux/releases/latest"
+    url "https://github.com/mcpmux/mcp-mux/releases/latest"
     strategy :github_latest
   end
 
