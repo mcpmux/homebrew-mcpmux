@@ -1,11 +1,9 @@
 cask "mcpmux" do
-  arch arm: "aarch64", intel: "x64"
 
-  version "0.0.12"
-  sha256 arm:   "PLACEHOLDER_ARM64",
-         intel: "PLACEHOLDER_X64"
+  version "0.1.1"
+  sha256 "5f26331c256ab3cd78afe586f70ee182e81150cc89573849669d2d56bae0789d"
 
-  url "https://github.com/mcpmux/mcp-mux/releases/download/v#{version}/McpMux_#{version}_#{arch}.dmg",
+  url "https://github.com/mcpmux/mcp-mux/releases/download/v#{version}/McpMux_#{version}_aarch64.dmg",
       verified: "github.com/mcpmux/mcp-mux/"
 
   name "McpMux"
@@ -13,6 +11,7 @@ cask "mcpmux" do
   homepage "https://mcpmux.com"
 
   depends_on macos: ">= :high_sierra"
+  depends_on arch: :arm64
 
   livecheck do
     url "https://github.com/mcpmux/mcp-mux/releases/latest"
