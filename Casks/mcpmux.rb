@@ -1,9 +1,9 @@
 cask "mcpmux" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.1.1"
-  sha256 arm:   "5f26331c256ab3cd78afe586f70ee182e81150cc89573849669d2d56bae0789d",
-         intel: "7ef50fae4bc1d2d46c5ec387277a7e38e9d491e1ad9d5e0d10a7f18f0f7bd89d"
+  version "0.1.2"
+  sha256 arm:   "6969dca5027294811bae8d058d72d46e3573a0d74a1590d2123b6eadc086772f",
+         intel: "497d1deb01d114d867ecd39eb47b1c8812974c371fda2f91e17ccb32e7dc7b23"
 
   url "https://github.com/mcpmux/mcp-mux/releases/download/v#{version}/McpMux_#{version}_#{arch}.dmg",
       verified: "github.com/mcpmux/mcp-mux/"
@@ -11,6 +11,7 @@ cask "mcpmux" do
   name "McpMux"
   desc "Unified MCP gateway and manager for AI clients"
   homepage "https://mcpmux.com"
+
 
   livecheck do
     url "https://github.com/mcpmux/mcp-mux/releases/latest"
